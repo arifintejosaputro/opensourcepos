@@ -2,7 +2,10 @@
   "name": "@opensourcepos/opensourcepos",
   "version": "3.3.5",
   "description": "Open Source Point of Sale is a web based point of sale system written in the PHP language. It uses MySQL as the data storage back-end and has a simple user interface.",
-  "repository": "git://github.com/opensourcepos/opensourcepos.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensourcepos/opensourcepos"
+  },
   "main": "index.php",
   "license": "MIT",
   "authors": [
@@ -15,9 +18,8 @@
   "publishConfig": {
       "registry":"https://npm.pkg.github.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/opensourcepos/opensourcepos"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "point-of-sale",
