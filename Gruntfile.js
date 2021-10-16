@@ -258,8 +258,8 @@ module.exports = function(grunt) {
 		compress: {
 			main: {
 				options: {
-					mode: 'zip',
-					archive: 'dist/opensourcepos.zip'
+					mode: 'tar',
+					archive: 'dist/opensourcepos.tar'
 				},
 				files: [
 					{
